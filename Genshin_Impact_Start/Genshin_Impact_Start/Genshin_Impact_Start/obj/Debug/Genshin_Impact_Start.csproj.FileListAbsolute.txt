@@ -1,0 +1,11 @@
+E:\CJHFiles\.NET\Genshin_Impact_Start\Genshin_Impact_Start\Genshin_Impact_Start\bin\Debug\Genshin_Impact_Start.exe.config
+E:\CJHFiles\.NET\Genshin_Impact_Start\Genshin_Impact_Start\Genshin_Impact_Start\bin\Debug\Genshin_Impact_Start.exe
+E:\CJHFiles\.NET\Genshin_Impact_Start\Genshin_Impact_Start\Genshin_Impact_Start\bin\Debug\Genshin_Impact_Start.pdb
+E:\CJHFiles\.NET\Genshin_Impact_Start\Genshin_Impact_Start\Genshin_Impact_Start\obj\Debug\Genshin_Impact_Start.csproj.AssemblyReference.cache
+E:\CJHFiles\.NET\Genshin_Impact_Start\Genshin_Impact_Start\Genshin_Impact_Start\obj\Debug\Genshin_Impact_Start.csproj.SuggestedBindingRedirects.cache
+E:\CJHFiles\.NET\Genshin_Impact_Start\Genshin_Impact_Start\Genshin_Impact_Start\obj\Debug\Genshin_Impact_Start.Properties.Resources.resources
+E:\CJHFiles\.NET\Genshin_Impact_Start\Genshin_Impact_Start\Genshin_Impact_Start\obj\Debug\Genshin_Impact_Start.csproj.GenerateResource.cache
+E:\CJHFiles\.NET\Genshin_Impact_Start\Genshin_Impact_Start\Genshin_Impact_Start\obj\Debug\Genshin_Impact_Start.csproj.CoreCompileInputs.cache
+E:\CJHFiles\.NET\Genshin_Impact_Start\Genshin_Impact_Start\Genshin_Impact_Start\obj\Debug\Genshin_Impact_Start.exe
+E:\CJHFiles\.NET\Genshin_Impact_Start\Genshin_Impact_Start\Genshin_Impact_Start\obj\Debug\Genshin_Impact_Start.pdb
+E:\CJHFiles\.NET\Genshin_Impact_Start\Genshin_Impact_Start\Genshin_Impact_Start\obj\Debug\Genshin_Impact_Start.Form1.resources
