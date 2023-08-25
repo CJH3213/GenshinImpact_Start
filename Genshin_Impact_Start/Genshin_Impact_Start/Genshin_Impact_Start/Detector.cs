@@ -63,13 +63,16 @@ namespace Genshin_Impact_Start
 
                 return bitmap;
             }
-            catch (Exception ex)
-            {
-                //异常处理
-                MessageBox.Show(ex.ToString());
-            }
+            catch (Exception ex) { }
 
-            return null;
+            // 如果截屏失败（常见于锁屏后），返回一个空的bitmap
+            Bitmap bitmap2 = new Bitmap(100, 50, PixelFormat.Format24bppRgb);
+            using (Graphics gfx = Graphics.FromImage(bitmap2))
+                using (SolidBrush brush = new SolidBrush(Color.Black))  // 填充黑色
+                {
+                    gfx.FillRectangle(brush, 0, 0, bitmap2.Width, bitmap2.Height);
+                }
+            return bitmap2;
         }
 
         // 统计颜色个数
