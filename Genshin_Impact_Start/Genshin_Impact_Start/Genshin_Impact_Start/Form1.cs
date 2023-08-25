@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Genshin_Impact_Start.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -44,6 +45,7 @@ namespace Genshin_Impact_Start
                 lb_TotalPixels.Text = bitmapSize.ToString();
                 lb_WhitePixels.Text = colorCount.ToString();
                 lb_Ratio.Text = string.Format("{0:N2}%", ratio);
+                lb_IsGameRunning.Text = isRunning?"是":"否";
             }
             else
             {
@@ -61,5 +63,32 @@ namespace Genshin_Impact_Start
             mDetector.CheckAll();
         }
 
-    }
-}
+        private void Form1_SizeChanged(object sender, EventArgs e)
+        {
+            //当点击最小化按钮时，隐藏软件到任务栏托盘
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                //将程序从任务栏移除显示
+                ShowInTaskbar = false;
+                //隐藏窗口
+                Visible = false;
+                //显示托盘图标
+                notifyIcon1.Visible = true;
+            }
+        }
+
+        // 从最小化托盘还原窗口
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            //设置程序允许显示在任务栏
+            ShowInTaskbar = true;
+            //设置窗口可见
+            Visible = true;
+            //设置窗口状态
+            WindowState = FormWindowState.Normal;
+            //设置窗口为活动状态，防止被其他窗口遮挡。
+            Activate();
+        }
+
+    }   // 类结束
+}   // 命名空间结束
