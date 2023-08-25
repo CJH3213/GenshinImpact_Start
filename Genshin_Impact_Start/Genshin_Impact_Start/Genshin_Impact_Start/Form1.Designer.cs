@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -37,7 +36,6 @@
             this.lb_TotalPixels = new System.Windows.Forms.Label();
             this.lb_WhitePixels = new System.Windows.Forms.Label();
             this.lb_Ratio = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label4 = new System.Windows.Forms.Label();
             this.lb_IsGameRunning = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -59,7 +57,7 @@
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox1.BackColor = System.Drawing.Color.LightGray;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(321, 226);
@@ -127,12 +125,6 @@
             this.lb_Ratio.TabIndex = 7;
             this.lb_Ratio.Text = "0";
             // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 400;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // label4
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -186,7 +178,6 @@
         private System.Windows.Forms.Label lb_TotalPixels;
         private System.Windows.Forms.Label lb_WhitePixels;
         private System.Windows.Forms.Label lb_Ratio;
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lb_IsGameRunning;
     }
